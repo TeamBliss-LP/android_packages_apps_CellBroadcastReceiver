@@ -18,7 +18,8 @@
 */
 -->
 <resources>
-
+    
+    <!-- Exposed hardcoded themes from AndroidManifest, allowing it to be themeable. -->
     <style name="CellBroadcastTheme" parent="android:Theme.Material.Light" />
     <style name="CellBroadcastDialogTheme" parent="android:Theme.Material.Light.Dialog" />
     
