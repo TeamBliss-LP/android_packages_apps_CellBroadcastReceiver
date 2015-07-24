@@ -12,6 +12,8 @@ LOCAL_PACKAGE_NAME := CellBroadcastReceiver
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
 
+LOCAL_AAPT_INCLUDE_ALL_RESOURCES := true
+
 include $(BUILD_PACKAGE)
 
 # This finds and builds the test apk as well, so a single make does both.
